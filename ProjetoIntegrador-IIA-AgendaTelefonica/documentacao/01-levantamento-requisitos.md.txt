@@ -1,0 +1,28 @@
+# Levantamento de Requisitos — Agenda Telefônica
+
+## 1. Nome do sistema
+Agenda Telefônica em Java
+
+## 2. Objetivo do sistema
+Desenvolver uma aplicação em Java para armazenar e gerenciar contatos telefônicos, permitindo cadastrar, consultar, atualizar, listar e excluir contatos em um banco de dados MySQL.
+
+## 3. Usuário principal
+O usuário principal do sistema é uma pessoa que deseja organizar seus contatos telefônicos de forma simples e prática.
+
+## 4. Problema identificado
+Muitas pessoas armazenam contatos de forma desorganizada ou sem controle adequado. O sistema busca facilitar o gerenciamento de contatos, centralizando nome, telefone e e-mail.
+
+## 5. Requisitos funcionais
+RF01 — O sistema deve permitir cadastrar um novo contato.  
+RF02 — O sistema deve permitir listar todos os contatos cadastrados.  
+RF03 — O sistema deve permitir buscar um contato pelo nome.  
+RF04 — O sistema deve permitir atualizar os dados de um contato.  
+RF05 — O sistema deve permitir excluir um contato existente.  
+RF06 — O sistema deve salvar os dados no banco de dados MySQL.
+
+## 6. Requisitos não funcionais
+RNF01 — O sistema deve ser desenvolvido em Java.  
+RNF02 — O sistema deve utilizar banco de dados MySQL.  
+RNF03 — O sistema deve apresentar um menu simples e amigável ao usuário.  
+RNF04 — O sistema deve tratar erros, como contato inexistente ou dados inválidos.  
+RNF05 — O código deve ser organizado em classes.
